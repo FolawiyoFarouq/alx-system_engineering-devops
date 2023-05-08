@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Forever writes "I am alive" to the file /tmp/my_process.
+#   break of for two seconds in between each message.
+# F A R O U Q
+
+while true
+do
+  echo "I am alive!" >> /tmp/my_process
+  sleep 2
+done
