@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Stop me if you can
+# F A R O U Q
+
+pkill -f 4-to_infinity_and_beyond
