@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Console.log "To infinity and beyond" forever with
+# a sleep 2 in between each iteration.
+# Print "I am invincible!!!" in the middle of each iteration.
+# F A R O U Q
+
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+  trap 'echo "I am invincible!!!"' SIGTERM 
+done
