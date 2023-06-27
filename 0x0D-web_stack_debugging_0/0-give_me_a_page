@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#F A R O U Q
+# fixes an apache server in a container
+service apache2 start
